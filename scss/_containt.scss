@@ -1,0 +1,387 @@
+//selected_projects
+.selected_projects{
+	display: block;
+	overflow: hidden;
+	background: url("../images/shap/selected-projects.png") no-repeat;
+	position: relative;
+	padding-bottom: 200px;
+	z-index: 1;
+	&:after{
+		content: "";
+		position: absolute;
+		left: 40%;
+		bottom: 170px;
+		height: 14px;
+		width: 14px;
+		border: 3px solid #ecbafa;
+		border-radius: 50%;
+		animation: float-bob-x infinite 15s linear;
+		z-index: -1; 
+	}
+	.tittle{
+		padding-bottom: 120px;
+	}
+	.selected_img{
+		img{
+			margin-left: -240px;
+		}
+	}
+	.selected_text{
+		h3{
+			font: 500 45px/55px $font;
+			color: $heding;
+			padding-top: 30px;
+		}
+		h4{
+			font: 400 22px/30px $font2;
+			color: $pfont;
+			padding: 40px 0 25px;
+		}
+		p{
+			max-width: 560px;
+			padding-bottom: 30px;
+		}
+		.theme_btn{
+			min-width: 214px;
+		}
+	}
+}
+//selected_projects
+
+//digital_marketing
+.digital_marketing{
+	overflow: hidden;
+	background: url("../images/shap/marketing-bg.png") no-repeat top right;
+	padding: 110px 0;
+	.tittle{
+		text-align: left;
+		max-width: 570px;
+		padding-top: 360px;
+		float: right;
+		.theme_btn{
+			min-width: 214px;
+			margin-top: 40px;
+		}
+	}
+	.marketing_inner{
+		max-width: 780px;
+		.marketing_item{ 
+			border-radius: 10px;
+			background: #fff;
+			padding: 60px 25px; 
+			margin-bottom: 40px;
+			text-align: center;
+			@include transition;
+			box-shadow: 0px 0px 30px 0px rgba(186, 184, 191, 0.35);
+			.icons{
+				margin: 0 auto;
+				border-radius: 50%;
+				background-image: -moz-linear-gradient( 134deg, rgb(252,109,220) 0%, rgb(254,59,43) 100%);
+				background-image: -webkit-linear-gradient( 134deg, rgb(252,109,220) 0%, rgb(254,59,43) 100%);
+				background-image: -ms-linear-gradient( 134deg, rgb(252,109,220) 0%, rgb(254,59,43) 100%); 
+				width: 145px;
+				height: 145px; 
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: relative;
+				border: 16px solid #fff2f2;
+				box-shadow: 0px 12px 32px 0px rgba(140, 140, 140, 0.35);
+				i:before{
+					color: #fff;
+					font-size: 61px;
+					line-height: 1;
+				} 
+			}
+			.is_2{  
+				background-image: -moz-linear-gradient( 134deg, rgb(203,136,255) 0%, rgb(164,115,255) 100%);
+				background-image: -webkit-linear-gradient( 134deg, rgb(203,136,255) 0%, rgb(164,115,255) 100%);
+				background-image: -ms-linear-gradient( 134deg, rgb(203,136,255) 0%, rgb(164,115,255) 100%);
+				border-color: #f1fcff;
+			}
+			.is_3{ 
+				background-image: -moz-linear-gradient( -47deg, rgb(88,254,95) 0%, rgb(156,253,250) 100%);
+				background-image: -webkit-linear-gradient( -47deg, rgb(88,254,95) 0%, rgb(156,253,250) 100%);
+				background-image: -ms-linear-gradient( -47deg, rgb(88,254,95) 0%, rgb(156,253,250) 100%);
+				border-color: #edfff1;
+				
+			}
+			.is_4{ 
+				background-image: -moz-linear-gradient( 134deg, rgb(42,117,245) 0%, rgb(169,98,248) 100%);
+				background-image: -webkit-linear-gradient( 134deg, rgb(42,117,245) 0%, rgb(169,98,248) 100%);
+				background-image: -ms-linear-gradient( 134deg, rgb(42,117,245) 0%, rgb(169,98,248) 100%);
+				border-color: #f7f2ff;
+			}
+			a{
+				display: block;
+				font: 500 24px/32px $font;
+				color: #282828; 
+				padding-top: 40px;
+				&:hover, &:focus{
+					color: $hover; 
+				}
+			}
+			&:hover, &:focus, &.active{
+				box-shadow: 0px 0px 30px 0px rgba(186, 184, 191, 0.35);
+			}
+		}
+		.fast_colum{
+			padding-top: 170px;
+		}
+	}
+}
+//digital_marketing
+
+//optimizarion_area
+.optimizarion_area{
+	display: block;
+	overflow: hidden;
+	padding-top: 110px;
+	position: relative;
+	z-index: 1;
+	padding-bottom: 150px;
+	&:after{
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: url("../images/shap/seo-bg-1.png") no-repeat top right;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+	.tittle{
+		text-align: left;
+		padding-top: 90px;
+		h6{
+			color: $bc;
+			border-color: #fce5e8;
+		}
+		.theme_btn2{
+			margin-top: 40px; 
+			border: 2px solid #f2efff;
+			color: $hover;
+			background: transparent;
+			&:hover, &:focus{  
+				color: #fff;
+				background-image: -moz-linear-gradient( -7deg, rgb(137,114,249) 0%, rgb(109,118,248) 41%, rgb(81,121,247) 100%);
+				background-image: -webkit-linear-gradient( -7deg, rgb(137,114,249) 0%, rgb(109,118,248) 41%, rgb(81,121,247) 100%);
+				background-image: -ms-linear-gradient( -7deg, rgb(137,114,249) 0%, rgb(109,118,248) 41%, rgb(81,121,247) 100%);
+			}
+		}
+	}
+	img{
+		animation: float-bob-y infinite 2s linear;
+	}
+}
+.oa_2{
+	&:after{
+		background: url("../images/shap/seo-bg-2.png") no-repeat top left;
+		left: 0;
+		right: auto;
+	}
+	img{
+		margin-left: -125px;
+	}
+}
+.oa_3{
+	padding-bottom: 0;
+	&:after{
+		background: url("../images/shap/seo-bg-3.png") no-repeat top right;
+	}
+}
+.optimizarion_2{
+	padding-bottom: 0;
+	.optimizarion_row{
+		padding-top: 150px;
+		.tittle{
+			padding-top: 0;
+			h6{
+				color: #9a64f8;
+				border-bottom: 6px solid #f2edff;
+			}
+			.theme_btn2{
+				border-color: #ffe9ed;
+				color: #ff456a;
+				&:hover, &:focus{ 
+					color: #fff;
+					background-image: -moz-linear-gradient( -7deg, rgb(255,69,106) 0%, rgb(255,103,111) 41%, rgb(255,137,115) 100%);
+					background-image: -webkit-linear-gradient( -7deg, rgb(255,69,106) 0%, rgb(255,103,111) 41%, rgb(255,137,115) 100%);
+					background-image: -ms-linear-gradient( -7deg, rgb(255,69,106) 0%, rgb(255,103,111) 41%, rgb(255,137,115) 100%);
+				}
+			}
+		}
+	}
+}
+//optimizarion_area
+
+//history_area
+.history_area{
+	display: block;
+	overflow: hidden;
+	padding: 180px 0 80px;
+	img{
+		max-width: 100%;
+	}
+	.history_content{
+		padding-left: 35px;
+	}
+	h4{
+		font: 500 22px $font;
+		color: #2f2f2f;
+		padding: 50px 0 16px;
+		&:first-child{
+			padding-top: 0;
+		}
+	}
+	p{
+		font-size: 18px;
+	}
+}
+.ha_2{ 
+	padding-top: 0;
+	.history_content{
+		background: #fff;
+		padding: 60px;
+		max-width: 620px;
+		margin-left: -330px;
+		margin-top: 92px;
+	}
+}
+//history_area
+
+//hire_us
+.hire_us{
+	text-align: center;
+	h2{
+		font: 700 50px/60px $font;
+		color: $heding;
+		padding: 70px 0;
+	} 
+}
+//hire_us
+
+//visit_website
+.visit_website{
+	display: block;
+	overflow: hidden;
+	background: #fff3f2;
+	padding: 60px 45px;
+	margin-top: 120px;
+	p{
+		font-size: 18px;
+		max-width: 1050px;
+		font-family: $font;
+		padding-bottom: 40px;
+	}
+	a{
+		border-radius: 0;
+		font: 400 18px/45px $font;
+		min-width: 180px;
+	}
+}
+.visit_website_area{
+	display: block;
+	overflow: hidden;
+	padding-top: 80px;
+	.socail{ 
+		display: block;
+		overflow: hidden;
+		padding-bottom: 40px;
+		li{
+			display: inline-block;
+			padding-left: 25px;
+			&:first-child{
+				padding: 0;
+			}
+			a{
+				font-size: 24px;
+				color: #ebdedd;
+				font-family: "Font Awesome 5 Brands";
+				font-weight: 400;
+				&:hover, &:focus{
+					color: $bc;
+				}
+			}
+		}
+	}
+	.visit_website{
+		margin: 0;
+		background: #f0fff4;
+	}
+}
+.highlights_area{
+	display: block;
+	overflow: hidden;
+}
+.highlights{
+	display: block;
+	overflow: hidden;
+	background: #fbf6f6;  
+	text-align: center;
+	padding: 100px 0;
+	.heding{ 
+		font: 500 45px/1 $font;
+		color: #282828;
+		padding-bottom: 75px;
+		padding-top: 0;
+	}
+	h2{
+		font: 500 50px/1 $font;
+		color: #282828;
+		padding-top: 30px;
+	}
+	i{
+		font-size: 78px;
+		color: $hover;
+	}
+	p{
+		padding-bottom: 30px; 
+		font: 500 22px/1 $font;
+		color: #282828;
+		padding-top: 25px;
+	}
+}
+.have_idea{ 
+	padding: 200px 0;
+	h2{ 
+		font: 500 45px/55px $font;
+		color: #282828;
+		text-align: center;
+		margin: 0 auto 50px; 
+		max-width: 730px;
+	}
+	.theme_btn2{
+		width: 255px;
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.next_p{
+		display: block;
+		overflow: hidden;
+		padding-top: 60px;
+		a{
+			font: 500 20px/1 $font;
+			color: #282828;
+			i:before{
+				font-size: 32px;
+				position: relative;
+				top: 5px;
+				padding-right: 10px;
+			}
+			&:hover, &:focus{
+				color: $bc;
+			}
+			&:last-child{
+				float: right;
+				i:before{
+					padding-right: 0;
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+}
+//visit_website

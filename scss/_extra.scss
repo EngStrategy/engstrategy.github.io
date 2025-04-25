@@ -1,0 +1,193 @@
+//error_area
+.error_area{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	background:#faf2fe url("../images/shap/e-shap-1.png") no-repeat center bottom; 
+	padding-top: 290px;
+	img{
+		max-width: 100%;
+	}
+	h4{
+		font: 500 30px/40px $font;
+		color: #292929;
+		padding: 100px 0 90px;
+	}
+	a{
+		min-width: 255px;
+	}
+	p{
+		padding-top: 220px; 
+		padding-bottom: 50px;
+		a{
+			color: $pfont;
+			&:hover{
+				color: $bc;
+			}
+		}
+	}
+}
+.bg_s{
+	position: relative; 
+	z-index: 1;
+	&:before{
+		content: "";
+		position: absolute;
+		top: 30%;
+		left: 15%;
+		height: 71px;
+		width: 71px;
+		border-radius: 50%;  
+		background-image: -moz-linear-gradient( -176deg, rgb(255,235,255) 0%, rgb(226,64,255) 100%);
+		background-image: -webkit-linear-gradient( -176deg, rgb(255,235,255) 0%, rgb(226,64,255) 100%);
+		background-image: -ms-linear-gradient( -176deg, rgb(255,235,255) 0%, rgb(226,64,255) 100%);
+		box-shadow: 0px 22px 32px 0px rgba(157, 157, 157, 0.35);
+		z-index: -1;
+		animation: float-bob-x infinite 15s linear;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		bottom: 20%;
+		right: 10%;
+		height: 71px;
+		width: 71px;
+		border-radius: 50%;  
+		background-image: -moz-linear-gradient( -113deg, rgb(250,242,254) 0%, rgb(151,121,251) 100%);
+		background-image: -webkit-linear-gradient( -113deg, rgb(250,242,254) 0%, rgb(151,121,251) 100%);
+		background-image: -ms-linear-gradient( -113deg, rgb(250,242,254) 0%, rgb(151,121,251) 100%);
+		box-shadow: 0px 22px 32px 0px rgba(157, 157, 157, 0.35);
+		z-index: -1;
+		animation: float-bob-x infinite 15s linear;
+	}  
+	.shap_1{
+		position: absolute;
+		right: 10%;
+		top: 25%;
+		z-index: -1;
+		animation: float-bob-y infinite 2s linear;
+	}
+	.shap_2{
+		position: absolute;
+		right: 34%;
+		bottom: 0;
+		z-index: -1;
+		animation: float-bob-y infinite 2s linear;
+	}
+	.shap_3{
+		position: absolute;
+		left: 30%;
+		bottom: 0;
+		z-index: -1;
+		animation: float-bob-y infinite 2s linear;
+	}
+	.s_shap_1{
+		position: absolute;
+		right: 6%;
+		top: 25%;
+		z-index: -1;
+		animation: float-bob-y infinite 2s linear;
+	}
+	.s_shap_2{  
+		position: absolute;
+		top: 60%;
+		left: 0;
+		z-index: -1;
+		animation: float-bob-y infinite 2s linear;
+	} 
+}
+//error_area
+
+//coming_soon
+.coming_soon{ 
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	background:#e9fffc url("../images/shap/c-shap-3.png") no-repeat center bottom; 
+	padding-top: 390px;
+	position: relative;
+	z-index: 1;
+	.bg_s{
+		&:before{ 
+			background-image: -moz-linear-gradient( -176deg, rgb(255,235,255) 0%, rgb(233,255,252) 100%);
+			background-image: -webkit-linear-gradient( -176deg, rgb(255,235,255) 0%, rgb(233,255,252) 100%);
+			background-image: -ms-linear-gradient( -176deg, rgb(255,235,255) 0%, rgb(233,255,252) 100%);
+		}
+	}
+	img{
+		max-width: 100%;
+	}
+	h2{
+		font: 500 35px/45px $font;
+		color: #292929;
+		max-width: 730px;
+		margin: 0 auto;
+		padding: 25px 0 90px;
+	}
+	.countdown {
+		padding: 190px 0;
+		.ds-element{
+			display: inline-block;
+			min-width: 210px;
+			position: relative;
+			text-align: center;
+			padding-bottom: 40px;
+			&:after{
+				content: "";
+				position: absolute;
+				left: -8px;
+				top: 15px;
+				height: 16px;
+				width: 16px;
+				border-radius: 50%;
+				background: #f197ff;
+			}
+			&:first-child{
+				&:after{
+					display: none;
+				}
+			}
+			.ds-element-title{ 
+				font: 400 22px/1 $font;
+				color: #302929;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				text-align: center;
+			}
+			.ds-element-value{
+				font: 700 50px/1 $font;
+				color: #ff3d3d;
+			}
+		}
+	}
+	ul{
+		li{
+			display: inline-block;
+			a{
+				font: 400 18px/35px $font;
+				color: #292929;
+				padding: 0 20px;
+				display: block;
+				text-align: center;
+				padding-top: 4px;
+				&:hover, &:focus, &.active{
+					color: #fff;
+					background: #dd57f9;
+				}
+			}
+		}
+	}
+	p{
+		padding-top: 220px; 
+		padding-bottom: 50px;
+		a{
+			color: $pfont;
+			&:hover{
+				color: $bc;
+			}
+		}
+	}
+}
+//coming_soon

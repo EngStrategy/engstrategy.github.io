@@ -1,0 +1,237 @@
+//footer_area
+.footer_area{
+	display: block;
+	overflow: hidden;
+	background: #fff7fa url("../images/shap/footer-bg.png") no-repeat center bottom; 
+	padding-top: 120px;
+	position: relative;
+	z-index: 1;   
+	&:before{
+		content: "";
+		position: absolute;
+		left: 140px;
+		top: 190px;
+		height: 14px;
+		width: 14px;
+		border: 3px solid #ecbafa;
+		border-radius: 50%;
+		animation: float-bob-x infinite 15s linear;
+		z-index: -1;
+	} 
+	.footer_inner{ 
+		padding-bottom: 15px;
+	}
+	.footer_address{ 
+		address{
+			font: 400 18px/28px $font2;
+			color: $pfont2;
+			a{
+				display: block;
+				color: rgba(36, 36, 37, 0.8);
+				padding-top: 5px;
+				&.number{
+					padding-top: 20px; 
+				}
+				&:hover, &:focus{
+					color: $bc;
+				}
+			}
+		}
+		.footer_social{
+			padding: 40px 0 65px;
+			li{
+				display: inline-block;
+				padding-right: 10px;
+				&:last-child{
+					padding: 0;
+				}
+				a{
+					font-size: 18px;
+					color: #575757;
+					line-height: 40px;
+					border-radius: 50%;
+					text-align: center;
+					width: 40px;
+					height: 40px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					&:hover, &:focus{
+						color:#fff;
+						background: $hover;
+					}
+				}
+			}
+		} 
+	}
+	.footer_widget{ 
+		h4{
+			font: 500 20px/1 $font;
+			color: #242425;
+			padding-bottom: 27px;
+			text-transform: uppercase;
+		}
+		.footer_nav{
+			li{
+				a{
+					font: 400 18px/38px $font2;
+					color: rgba(36, 36, 37, 0.8);
+					display: block;
+					&:hover, &:focus{
+						color: $bc;
+					}
+				}
+			}
+		}
+		&.fw_2{
+			padding-left: 0;
+		} 
+		.mobile_icon{ 
+			padding-top: 30px;
+			li{
+				display: inline-block;
+				&:first-child{ 
+					font: 400 18px/1 $font2;
+					color: rgba(36, 36, 37, 0.902);
+				}
+				a{
+					color: #575757; 
+					font-size: 20px;
+					padding-left: 20px;
+					display: inline-block;
+					&:hover, &:focus{
+						color: $bc;
+					}
+				}
+			}
+		}
+	} 
+	
+	.copy_right{  
+		align-items: center;
+		padding: 65px 0;
+		border-top: 1px solid #fff;
+		p{ 
+			img{
+				padding-right: 27px;
+			}
+			color: rgba(36, 36, 37, 0.8);
+			line-height: 26px;
+			a{
+				color: rgba(36, 36, 37, 0.8);
+				&:hover, &:focus{
+					color: $bc;
+				}
+			}
+		}
+		.mobile_icon{
+			text-align: center;
+			li{
+				display: inline-block;
+				&:first-child{ 
+					font: 400 18px/1 $font2;
+					color: rgba(36, 36, 37, 0.902);
+				}
+				a{
+					color: #575757; 
+					font-size: 20px;
+					padding-left: 20px;
+					display: inline-block;
+					&:hover, &:focus{
+						color: $bc;
+					}
+				}
+			}
+		}
+		.footer_nav{ 
+			text-align: right;
+			li{
+				display: inline-block;
+				padding-left: 7px;
+				a{
+					font: 400 16px/1 $font2;
+					color: rgba(36, 36, 37, 0.8);
+					display: block; 
+					border-bottom: 1px solid transparent;
+					&:hover, &:focus{
+						color: $bc;
+						border-color: $bc;
+					}
+				}
+			}
+		}
+	}
+	&.footer_2{ 
+		padding-top: 270px; 
+		position: relative;
+		z-index: 1;
+		&:after{
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: url("../images/shap/footer-shap.png") no-repeat center top;
+			background-size: contain;
+			z-index: -1;
+		}
+	}
+}
+.footer_3{
+	background:#685985 url("../images/shap/footer-shap-2.png") no-repeat center bottom; 
+	&:after{
+		content: "";
+		position: absolute;
+		right: 5%;
+		top: 55%;
+		height: 14px;
+		width: 14px;
+		border: 3px solid #ecbafa;
+		border-radius: 50%;
+		animation: float-bob-x infinite 15s linear;
+		z-index: -1;
+	} 
+	.footer_address {
+		address{
+			color: rgba(255, 255, 255, 0.8);
+			a{
+				color: rgba(255, 255, 255, 0.8);
+			}
+		}
+		.footer_social li a{
+			color: #fff;
+			&:hover, &:focus{
+				background: $bc;
+			}
+		}
+	}
+	.footer_widget {
+		h4{
+			color: #fff;
+		}
+		.footer_nav li a{
+			color: rgba(255, 255, 255, 0.8);
+		}
+	}
+	.copy_right{
+		border-color:rgb(118, 107, 140);
+		p{
+			color: rgba(255, 255, 255, 0.8);
+			a{
+				color: rgba(255, 255, 255, 0.8);
+			}
+		}
+		.mobile_icon li, .footer_nav li{
+			&:first-child{
+				color: rgba(255, 255, 255, 0.9);
+			}
+			 a{
+				color: #fff;
+			}
+		}
+	}
+	
+}
