@@ -4034,7 +4034,6 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   display: block;
   overflow: hidden;
   background: #fff7fa url("../images/shap/footer-bg.png") no-repeat center bottom;
-  padding-top: 120px;
   position: relative;
   z-index: 1;
 }
