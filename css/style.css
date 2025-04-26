@@ -468,7 +468,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   width: 100%;
   z-index: 999;
   position: absolute;
-  padding: 75px 40px 0;
+  padding: 25px 40px 0;
 }
 .main_header_area .navbar {
   padding: 0;
@@ -964,7 +964,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
 .banner_2 {
   display: block;
   overflow: hidden;
-  padding: 410px 0 270px;
+  padding: 200px 0 270px;
   position: relative;
   z-index: 1;
 }
