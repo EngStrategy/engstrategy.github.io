@@ -1116,7 +1116,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
   background-image: -webkit-linear-gradient(-45deg, #9b79fb 0%, #2875f5 100%);
   background-image: -ms-linear-gradient(-45deg, #9b79fb 0%, #2875f5 100%);
   position: relative;
-  padding: 370px 0 170px;
+  padding: 150px 0 170px;
   z-index: 1;
 }
 .pages_banner:before {
