@@ -4702,7 +4702,7 @@ body a:focus, body a:hover, body .btn:focus, body .btn:hover, body button:focus,
     margin: 0;
     max-height: 370px;
     overflow-y: auto;
-    background: #ff584e;
+    background: black;
     border: 1px dashed #fff;
     padding-left: 0 !important;
   }
