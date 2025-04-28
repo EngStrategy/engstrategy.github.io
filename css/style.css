@@ -505,7 +505,7 @@ body button:hover {
   position: absolute;
   padding: 25px 40px 0;
 }
-.main_header_area .navbar {
+.main_header_area . {
   padding: 0;
   width: 100%;
 }
@@ -5041,8 +5041,8 @@ body button:hover {
     border: 0;
     border-radius: 0;
     position: absolute;
-    right: 95px;
-    top: 0;
+    right: 25px;
+    top: 10px;
   }
   .main_header_area .navbar .navbar_supported {
     float: none;
